@@ -1,15 +1,16 @@
 import './App.css';
 import Square from './Square';
-import {useState} from 'react'
-const [currentAttempt, setCurrentAttempt] = useState(1);
-export const solution = 'CLASE';
+import {useState} from 'react';
+
+
+
 
 const replaceAt=function(cadena, index, char) {
   var a = cadena.split("");
   a[index] = char;
   return a.join("");
 }
-
+export const solution ='CLASE';
 
 function App() {
   const [currentAttempt, setCurrentAttempt] = useState(1);
